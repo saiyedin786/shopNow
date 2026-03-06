@@ -4,7 +4,7 @@ pipeline {
     string(name: 'IMAGE_TAG', defaultValue: 'latest', description: 'Image tag to deploy')
   }
   environment {
-    REGISTRY = "your.registry.example.com/shopnow"
+    REGISTRY = "254292659362.dkr.ecr.ap-south-1.amazonaws.com/ismail-shopnow/admin:latest"
     KUBECONFIG_FILE = 'kubeconfig-credential'
     RELEASE_NAME = 'shopnow-admin'
     NAMESPACE = 'shopnow-demo'

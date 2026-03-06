@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: admin
-        image: 975050024946.dkr.ecr.ap-southeast-1.amazonaws.com/shopnow/admin:latest #<account-id>.dkr.ecr.<region>.amazonaws.com/shopnow/admin:latest
+        image: 254292659362.dkr.ecr.ap-south-1.amazonaws.com/ismail-shopnow/admin:latest #<account-id>.dkr.ecr.<region>.amazonaws.com/shopnow/admin:latest
         ports:
         - containerPort: 80
         resources:

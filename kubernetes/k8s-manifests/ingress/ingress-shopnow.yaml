@@ -10,14 +10,14 @@ spec:
   rules:
   - http:
       paths:
-      - path: /aryan-admin
+      - path: /ismail-admin
         pathType: Prefix
         backend:
           service:
             name: admin
             port:
               number: 80
-      - path: /aryan
+      - path: /ismail
         pathType: Prefix
         backend:
           service:
